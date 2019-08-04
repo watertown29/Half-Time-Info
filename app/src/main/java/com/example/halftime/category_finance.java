@@ -52,11 +52,22 @@ public class category_finance extends AppCompatActivity {
 
         //Create a list of company objects
         ArrayList<Company> companies = new ArrayList<Company>();
+        companies.add(new Company("American Century Investments", "Kansas City, MO", R.drawable.aci, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Bank of America Merrill Lynch", "Charlotte, NC & New York, NY", R.drawable.baml, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Barclays", "London, UK & New York, NY", R.drawable.barclays, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Citi", "New York, NY", R.drawable.citi, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Credit Suisse Group", "New York, NY", R.drawable.credit, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Deutsche Bank", "New York, NY", R.drawable.db, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Fidelity", "Boston, MA", R.drawable.fidelity, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Ivy Investments", "Overland Park, KS", R.drawable.ivy, new Intent(this, JPActivity.class)));
         companies.add(new Company("JP Morgan Chase & Co", "New York, NY", R.drawable.jpm, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Liberty Mutual", "Boston, MA", R.drawable.limu, new Intent(this, JPActivity.class)));
+        companies.add(new Company("M&T Bank", "Buffalo, NY", R.drawable.mt, new Intent(this, JPActivity.class)));
+        companies.add(new Company("Marsh & McLennan", "New York, NY", R.drawable.mmc, new Intent(this, JPActivity.class)));
 
 
         //initialize a CompanyAdapter
-        final CompanyAdapter adapter = new CompanyAdapter(this, R.color.marketing, companies);
+        final CompanyAdapter adapter = new CompanyAdapter(this, R.color.finance, companies);
 
         //find the listView in the XML
         ListView listView = (ListView) findViewById(R.id.list);
