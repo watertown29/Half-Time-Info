@@ -25,6 +25,7 @@ import com.example.halftime.companies.DBActivity;
 import com.example.halftime.companies.DanoneActivity;
 import com.example.halftime.companies.EJGalloActivity;
 import com.example.halftime.companies.FidelityActivity;
+import com.example.halftime.companies.GSActivity;
 import com.example.halftime.companies.GeneralMillsActivity;
 import com.example.halftime.companies.HasbroActivity;
 import com.example.halftime.companies.HersheyActivity;
@@ -70,6 +71,7 @@ public class category_finance extends AppCompatActivity {
         companies.add(new Company("Credit Suisse Group", "New York, NY", R.drawable.credit, new Intent(this, CreditActivity.class)));
         companies.add(new Company("Deutsche Bank", "New York, NY", R.drawable.db, new Intent(this, DBActivity.class)));
         companies.add(new Company("Fidelity", "Boston, MA", R.drawable.fidelity, new Intent(this, FidelityActivity.class)));
+        companies.add(new Company("Goldman Sachs", "New York, NY", R.drawable.goldman, new Intent(this, GSActivity.class)));
         companies.add(new Company("Ivy Investments", "Overland Park, KS", R.drawable.ivy, new Intent(this, IvyActivity.class)));
         companies.add(new Company("JP Morgan Chase & Co", "New York, NY", R.drawable.jpm, new Intent(this, JPActivity.class)));
         companies.add(new Company("Liberty Mutual", "Boston, MA", R.drawable.limu, new Intent(this, LIMUActivity.class)));
