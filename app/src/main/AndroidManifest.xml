@@ -110,8 +110,44 @@
             android:name=".companies.UnileverActivity"
             android:label="Unilever" />
         <activity
+            android:name=".companies.AmericanCenturyActivity"
+            android:label="American Century" />
+        <activity
+            android:name=".companies.BAMLActivity"
+            android:label="Bank of America Merrill Lynch" />
+        <activity
+            android:name=".companies.BarclaysActivity"
+            android:label="Barclays" />
+        <activity
+            android:name=".companies.CitiActivity"
+            android:label="Citi" />
+        <activity
+            android:name=".companies.CreditActivity"
+            android:label="Credit Suisse Group" />
+        <activity
+            android:name=".companies.DBActivity"
+            android:label="Deutsche Bank" />
+        <activity
+            android:name=".companies.FidelityActivity"
+            android:label="Fidelity" />
+        <activity
+            android:name=".companies.GSActivity"
+            android:label="Goldman Sachs" />
+        <activity
+            android:name=".companies.IvyActivity"
+            android:label="Ivy Investments" />
+        <activity
             android:name=".companies.JPActivity"
             android:label="JP Morgan Chase &amp; Co" />
+        <activity
+            android:name=".companies.LIMUActivity"
+            android:label="Liberty Mutual" />
+        <activity
+            android:name=".companies.MTActivity"
+            android:label="M&amp;T Bank" />
+        <activity
+            android:name=".companies.MMCActivity"
+            android:label="Marsh &amp; McLennan" />
 
 
 
