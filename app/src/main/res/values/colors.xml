@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BDD9BF</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#BEFFC7</color>
+    <color name="marketing">#291F1E</color>
+    <color name="finance">#FFC857</color>
+    <color name="tech">#477998</color>
+    <color name="all">#412234</color>
+    <color name="white">#FFFFFF</color>
+</resources>

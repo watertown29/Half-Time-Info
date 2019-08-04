@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.halftime">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".category_all"
+            android:label="@string/category_all"/>
+        <activity
+            android:name=".category_finance"
+            android:label="@string/category_finance" />
+        <activity
+            android:name=".category_marketing"
+            android:label="@string/category_marketing" />
+        <activity
+            android:name=".category_tech"
+            android:label="@string/category_tech" />
+        <activity
+            android:name=".companies.AmericanExpressActivity"
+            android:label="American Express" />
+        <activity
+        android:name=".companies.ColgateActivity"
+        android:label="Colgate Palmolive" />
+        <activity
+            android:name=".companies.ABInbevActivity"
+            android:label="AB Inbev" />
+
+        <activity
+        android:name=".companies.CitibankActivity"
+        android:label="Citibank" />
+
+        <activity
+            android:name=".companies.CocaColaActivity"
+            android:label="Coca-Cola Company" />
+
+        <activity
+            android:name=".companies.DanoneActivity"
+            android:label="Danone North America" />
+
+        <activity
+            android:name=".companies.ChurchDwightActivity"
+            android:label="Church &amp; Dwight" />
+
+        <activity
+            android:name=".companies.EJGalloActivity"
+            android:label="E. &amp; J. Gallo" />
+        <activity
+            android:name=".companies.GeneralMillsActivity"
+            android:label="General Mills" />
+        <activity
+            android:name=".companies.HasbroActivity"
+            android:label="Hasbro" />
+        <activity
+            android:name=".companies.HersheyActivity"
+            android:label="Hershey Company" />
+        <activity
+            android:name=".companies.JohnsonJohnsonActivity"
+            android:label="Johnson &amp; Johnson" />
+        <activity
+            android:name=".companies.KraftHeinzActivity"
+            android:label="Kraft Heinz Company" />
+        <activity
+            android:name=".companies.KimberlyClarkActivity"
+            android:label="Kimberly-Clark Corporation" />
+        <activity
+            android:name=".companies.LOrealActivity"
+            android:label="L'Oreal USA" />
+        <activity
+            android:name=".companies.MarsActivity"
+            android:label="Mars" />
+        <activity
+            android:name=".companies.MattelActivity"
+            android:label="Mattel" />
+        <activity
+            android:name=".companies.NestleActivity"
+            android:label="Nestlé" />
+        <activity
+            android:name=".companies.OceanSprayActivity"
+            android:label="Ocean Spray" />
+        <activity
+            android:name=".companies.PepsiActivity"
+            android:label="PepsiCo" />
+        <activity
+            android:name=".companies.PgActivity"
+            android:label="Proctor &amp; Gamble" />
+        <activity
+            android:name=".companies.RBActivity"
+            android:label="RB (Reckitt Benckiser)" />
+        <activity
+            android:name=".companies.SCJActivity"
+            android:label="S.C. Johnson &amp; Son" />
+        <activity
+            android:name=".companies.UnileverActivity"
+            android:label="Unilever" />
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>
