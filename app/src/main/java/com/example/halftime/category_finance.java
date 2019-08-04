@@ -21,6 +21,7 @@ import com.example.halftime.companies.EJGalloActivity;
 import com.example.halftime.companies.GeneralMillsActivity;
 import com.example.halftime.companies.HasbroActivity;
 import com.example.halftime.companies.HersheyActivity;
+import com.example.halftime.companies.JPActivity;
 import com.example.halftime.companies.JohnsonJohnsonActivity;
 import com.example.halftime.companies.KimberlyClarkActivity;
 import com.example.halftime.companies.KraftHeinzActivity;
@@ -51,7 +52,8 @@ public class category_finance extends AppCompatActivity {
 
         //Create a list of company objects
         ArrayList<Company> companies = new ArrayList<Company>();
-        companies.add(new Company("Under Construction", "Coming Soon!", R.drawable.construction, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("JP Morgan Chase & Co", "New York, NY", R.drawable.jpm, new Intent(this, JPActivity.class)));
+
 
         //initialize a CompanyAdapter
         final CompanyAdapter adapter = new CompanyAdapter(this, R.color.marketing, companies);

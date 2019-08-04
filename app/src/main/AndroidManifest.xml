@@ -109,6 +109,9 @@
         <activity
             android:name=".companies.UnileverActivity"
             android:label="Unilever" />
+        <activity
+            android:name=".companies.JPActivity"
+            android:label="JP Morgan Chase &amp; Co" />
 
 
 
