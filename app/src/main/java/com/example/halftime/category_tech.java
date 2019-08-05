@@ -27,10 +27,19 @@ public class category_tech extends AppCompatActivity {
 
         //Create a list of company objects
         ArrayList<Company> companies = new ArrayList<Company>();
-        companies.add(new Company("Under Construction", "Coming Soon!", R.drawable.construction, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("ADP", "Roseland, NJ", R.drawable.adp, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Amazon", "Seattle, WA", R.drawable.amazon, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Apple", "Cupertino, CA", R.drawable.apple, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Chewy.com", "Dania Beach, FL", R.drawable.chewy, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Google", "Mountain View, CA", R.drawable.google, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Hewlett-Packard", "Palo Alto, CA", R.drawable.hp, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("IBM", "Armonk, NY", R.drawable.ibm, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Microsoft", "Redmond, WA", R.drawable.microsoft, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("PayPal", "San Jose, CA", R.drawable.paypal, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("Walmart eCommerce", "Bentonville, AR; Sunnyvale, CA", R.drawable.walmart, new Intent(this, AmericanExpressActivity.class)));
 
         //initialize a CompanyAdapter
-        final CompanyAdapter adapter = new CompanyAdapter(this, R.color.marketing, companies);
+        final CompanyAdapter adapter = new CompanyAdapter(this, R.color.tech, companies);
 
         //find the listView in the XML
         ListView listView = (ListView) findViewById(R.id.list);
