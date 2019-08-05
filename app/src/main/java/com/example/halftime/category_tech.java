@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.halftime.companies.ADPActivity;
 import com.example.halftime.companies.AmazonActivity;
-import com.example.halftime.companies.AmericanExpressActivity;
 import com.example.halftime.companies.AppleActivity;
 import com.example.halftime.companies.ChewyActivity;
 import com.example.halftime.companies.GoogleActivity;
@@ -20,7 +19,6 @@ import com.example.halftime.companies.HPActivity;
 import com.example.halftime.companies.IBMActivity;
 import com.example.halftime.companies.MicrosoftActivity;
 import com.example.halftime.companies.PayPalActivity;
-import com.example.halftime.companies.WalmartActivity;
 
 import java.util.ArrayList;
 
@@ -46,7 +44,6 @@ public class category_tech extends AppCompatActivity {
         companies.add(new Company("IBM", "Armonk, NY", R.drawable.ibm, new Intent(this, IBMActivity.class)));
         companies.add(new Company("Microsoft", "Redmond, WA", R.drawable.microsoft, new Intent(this, MicrosoftActivity.class)));
         companies.add(new Company("PayPal", "San Jose, CA", R.drawable.paypal, new Intent(this, PayPalActivity.class)));
-        companies.add(new Company("Walmart eCommerce", "Bentonville, AR; Sunnyvale, CA", R.drawable.walmart, new Intent(this, WalmartActivity.class)));
 
         //initialize a CompanyAdapter
         final CompanyAdapter adapter = new CompanyAdapter(this, R.color.tech, companies);

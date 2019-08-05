@@ -148,7 +148,6 @@
         <activity
             android:name=".companies.MMCActivity"
             android:label="Marsh &amp; McLennan" />
-
         <activity
             android:name=".companies.ADPActivity"
             android:label="ADP" />
@@ -176,18 +175,6 @@
         <activity
             android:name=".companies.PayPalActivity"
             android:label="PayPal" />
-        <activity
-            android:name=".companies.WalmartActivity"
-            android:label="Walmart eCommerce" />
-
-
-
-
-
-
-
-
-
 
 
     </application>
