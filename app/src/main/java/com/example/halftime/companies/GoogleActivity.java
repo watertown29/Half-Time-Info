@@ -29,7 +29,7 @@ import java.util.List;
 
 public class GoogleActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Hershey%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
+    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22google%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
     private static final String LOG_TAG = CompanyAdapter.class.getSimpleName();
     private NewsAdapter articleAdapter;
     private TextView mEmptyStateTextView;
@@ -48,15 +48,15 @@ public class GoogleActivity extends AppCompatActivity implements LoaderCallbacks
 
         //create questions list
         ArrayList<String> questions = new ArrayList<String>();
-        questions.add("Tell me about a time you had to motivate a group.");
-        questions.add("Tell me about a time that you had to manage conflict.");
-        questions.add("Why Hershey?");
-        questions.add("What is a brand you feel is marketed poorly?");
-        questions.add("Tell me about a time you had to solve an ambiguous problem.");
-        questions.add("Tell me about a time you had to gather data and make a recommendation.");
-        questions.add("[Showing a print advertisement] What segment is this ad targeting?");
-        questions.add("Describe your willingness to move to central Pennsylvania.");
-        questions.add("What makes you the best candidate for this position?");
+        questions.add("How do you get work done when you have no formal authority over the people you need to get work out of?");
+        questions.add("Why do you want to work at Google?");
+        questions.add("Describe a time you had to change your working style and how you adapted.");
+        questions.add("Describe a time that you had an unpopular opinion and had to convince a team to use your method.");
+        questions.add("Describe the best team you've worked on and what made it successful.");
+        questions.add("Compare two products, one good one bad.");
+        questions.add("Brainstorm: what are some things you could do with a drinking straw?");
+        questions.add("Where do you see yourself at Google in 1 year? 5 years? 10 years?");
+        questions.add("Describe a time where you disagreed with a superior's strategy and how you convinced them to take your opinion.");
 
         //Initialize an array adapter
         final ArrayAdapter questionAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
