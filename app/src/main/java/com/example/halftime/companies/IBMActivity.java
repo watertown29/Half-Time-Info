@@ -29,7 +29,7 @@ import java.util.List;
 
 public class IBMActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Hershey%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
+    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22IBM%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
     private static final String LOG_TAG = CompanyAdapter.class.getSimpleName();
     private NewsAdapter articleAdapter;
     private TextView mEmptyStateTextView;
@@ -48,15 +48,13 @@ public class IBMActivity extends AppCompatActivity implements LoaderCallbacks<Li
 
         //create questions list
         ArrayList<String> questions = new ArrayList<String>();
-        questions.add("Tell me about a time you had to motivate a group.");
-        questions.add("Tell me about a time that you had to manage conflict.");
-        questions.add("Why Hershey?");
-        questions.add("What is a brand you feel is marketed poorly?");
-        questions.add("Tell me about a time you had to solve an ambiguous problem.");
-        questions.add("Tell me about a time you had to gather data and make a recommendation.");
-        questions.add("[Showing a print advertisement] What segment is this ad targeting?");
-        questions.add("Describe your willingness to move to central Pennsylvania.");
-        questions.add("What makes you the best candidate for this position?");
+        questions.add("Pick a trend in the technology industry and tell me how IBM can profit from it.");
+        questions.add("Speak to how IBM has been innovative in the last few years.");
+        questions.add("How do you see your particular skill set contributing to the direction that IBM is currently headed?");
+        questions.add("If all of your afternoon meetings were canceled and you could do whatever you would like - how would you spend that afternoon?");
+        questions.add("Why do you want to work for IBM?");
+        questions.add("If I had one slot why should it go to you over your classmates?");
+        questions.add("How would you evaluate a project?");
 
         //Initialize an array adapter
         final ArrayAdapter questionAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
