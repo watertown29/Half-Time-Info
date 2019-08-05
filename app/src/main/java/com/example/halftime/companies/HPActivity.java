@@ -29,7 +29,7 @@ import java.util.List;
 
 public class HPActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Hershey%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
+    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22HP%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
     private static final String LOG_TAG = CompanyAdapter.class.getSimpleName();
     private NewsAdapter articleAdapter;
     private TextView mEmptyStateTextView;
@@ -48,15 +48,15 @@ public class HPActivity extends AppCompatActivity implements LoaderCallbacks<Lis
 
         //create questions list
         ArrayList<String> questions = new ArrayList<String>();
-        questions.add("Tell me about a time you had to motivate a group.");
-        questions.add("Tell me about a time that you had to manage conflict.");
-        questions.add("Why Hershey?");
-        questions.add("What is a brand you feel is marketed poorly?");
-        questions.add("Tell me about a time you had to solve an ambiguous problem.");
-        questions.add("Tell me about a time you had to gather data and make a recommendation.");
-        questions.add("[Showing a print advertisement] What segment is this ad targeting?");
-        questions.add("Describe your willingness to move to central Pennsylvania.");
-        questions.add("What makes you the best candidate for this position?");
+        questions.add("Tell me about a time you have to persuade management of an action.");
+        questions.add("Why HP? Why technology?");
+        questions.add("What's your favorite piece of technology you use today and why?");
+        questions.add("How would you integrate Alexa into one of our PCs if you could not use bloatware?");
+        questions.add("If you were going to launch a new product, what's the first thing you would consider?");
+        questions.add("How would you explain the difference between a Brand Manager and a Product Manager?");
+        questions.add("What is the most important P in the Four P’s framework? Why?");
+        questions.add("Do you have any geographical limitations/preferences?");
+        questions.add("Tell me about a time when you had a conflict at work and what steps you took to resolve it.");
 
         //Initialize an array adapter
         final ArrayAdapter questionAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
