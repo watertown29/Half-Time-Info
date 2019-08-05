@@ -29,7 +29,7 @@ import java.util.List;
 
 public class PayPalActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Hershey%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
+    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22paypal%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
     private static final String LOG_TAG = CompanyAdapter.class.getSimpleName();
     private NewsAdapter articleAdapter;
     private TextView mEmptyStateTextView;
@@ -48,15 +48,13 @@ public class PayPalActivity extends AppCompatActivity implements LoaderCallbacks
 
         //create questions list
         ArrayList<String> questions = new ArrayList<String>();
-        questions.add("Tell me about a time you had to motivate a group.");
-        questions.add("Tell me about a time that you had to manage conflict.");
-        questions.add("Why Hershey?");
-        questions.add("What is a brand you feel is marketed poorly?");
-        questions.add("Tell me about a time you had to solve an ambiguous problem.");
-        questions.add("Tell me about a time you had to gather data and make a recommendation.");
-        questions.add("[Showing a print advertisement] What segment is this ad targeting?");
-        questions.add("Describe your willingness to move to central Pennsylvania.");
-        questions.add("What makes you the best candidate for this position?");
+        questions.add("What transferable skills do you have that align with the job description?");
+        questions.add("What are you looking for in a PM role?");
+        questions.add("Why Paypal?");
+        questions.add("What is the difference between Product Manager, Project Manager and Program Manager?");
+        questions.add("Tell me a time you had to show initiative?");
+        questions.add("What do you know about Blockchain?");
+        questions.add("Why do you want to work in technology?");
 
         //Initialize an array adapter
         final ArrayAdapter questionAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
