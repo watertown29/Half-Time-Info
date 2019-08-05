@@ -29,7 +29,7 @@ import java.util.List;
 
 public class AmazonActivity extends AppCompatActivity implements LoaderCallbacks<List<News>> {
 
-    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Hershey%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
+    private static final String AMERICAN_EXPRESS_REQUEST_URL = "https://newsapi.org/v2/everything?q=%22Amazon%22&language=en&sortBy=relevancy&apiKey=992b068daeb146349573a7d0fae39deb&pageSize=6";
     private static final String LOG_TAG = CompanyAdapter.class.getSimpleName();
     private NewsAdapter articleAdapter;
     private TextView mEmptyStateTextView;
@@ -48,15 +48,15 @@ public class AmazonActivity extends AppCompatActivity implements LoaderCallbacks
 
         //create questions list
         ArrayList<String> questions = new ArrayList<String>();
-        questions.add("Tell me about a time you had to motivate a group.");
-        questions.add("Tell me about a time that you had to manage conflict.");
-        questions.add("Why Hershey?");
-        questions.add("What is a brand you feel is marketed poorly?");
-        questions.add("Tell me about a time you had to solve an ambiguous problem.");
-        questions.add("Tell me about a time you had to gather data and make a recommendation.");
-        questions.add("[Showing a print advertisement] What segment is this ad targeting?");
-        questions.add("Describe your willingness to move to central Pennsylvania.");
-        questions.add("What makes you the best candidate for this position?");
+        questions.add("How do you launch Alexa in Hospitality, Food and Education industries?");
+        questions.add("Which of the 14 Amazon Leadership Principles do you identify most with?");
+        questions.add("Tell me about a time that you used data to make a decision.");
+        questions.add("How would you go about increasing sales for home printer ink and toner?");
+        questions.add("Tell me about a time you worked on a data intensive project. Be specific with what data you had to use, and how you had to use it.");
+        questions.add("What are you most proud of from your work experience?");
+        questions.add("Tell me about a time you put together a cross-functional team. How did you select your team members?");
+        questions.add("Tell me about a time when there was not enough time in the world to complete your responsibilities. How did you handle that?");
+        questions.add("What is your favorite Amazon product?");
 
         //Initialize an array adapter
         final ArrayAdapter questionAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
