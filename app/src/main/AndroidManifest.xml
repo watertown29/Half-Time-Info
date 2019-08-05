@@ -149,6 +149,37 @@
             android:name=".companies.MMCActivity"
             android:label="Marsh &amp; McLennan" />
 
+        <activity
+            android:name=".companies.ADPActivity"
+            android:label="ADP" />
+        <activity
+            android:name=".companies.AmazonActivity"
+            android:label="Amazon" />
+        <activity
+            android:name=".companies.AppleActivity"
+            android:label="Apple" />
+        <activity
+            android:name=".companies.ChewyActivity"
+            android:label="Chewy.com" />
+        <activity
+            android:name=".companies.GoogleActivity"
+            android:label="Google" />
+        <activity
+            android:name=".companies.HPActivity"
+            android:label="Hewlett-Packard" />
+        <activity
+            android:name=".companies.IBMActivity"
+            android:label="International Business Machines (IBM)" />
+        <activity
+            android:name=".companies.MicrosoftActivity"
+            android:label="Microsoft" />
+        <activity
+            android:name=".companies.PayPalActivity"
+            android:label="PayPal" />
+        <activity
+            android:name=".companies.WalmartActivity"
+            android:label="Walmart eCommerce" />
+
 
 
 

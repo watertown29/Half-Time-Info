@@ -10,7 +10,17 @@ import android.widget.TextView;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.halftime.companies.ADPActivity;
+import com.example.halftime.companies.AmazonActivity;
 import com.example.halftime.companies.AmericanExpressActivity;
+import com.example.halftime.companies.AppleActivity;
+import com.example.halftime.companies.ChewyActivity;
+import com.example.halftime.companies.GoogleActivity;
+import com.example.halftime.companies.HPActivity;
+import com.example.halftime.companies.IBMActivity;
+import com.example.halftime.companies.MicrosoftActivity;
+import com.example.halftime.companies.PayPalActivity;
+import com.example.halftime.companies.WalmartActivity;
 
 import java.util.ArrayList;
 
@@ -27,16 +37,16 @@ public class category_tech extends AppCompatActivity {
 
         //Create a list of company objects
         ArrayList<Company> companies = new ArrayList<Company>();
-        companies.add(new Company("ADP", "Roseland, NJ", R.drawable.adp, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Amazon", "Seattle, WA", R.drawable.amazon, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Apple", "Cupertino, CA", R.drawable.apple, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Chewy.com", "Dania Beach, FL", R.drawable.chewy, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Google", "Mountain View, CA", R.drawable.google, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Hewlett-Packard", "Palo Alto, CA", R.drawable.hp, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("IBM", "Armonk, NY", R.drawable.ibm, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Microsoft", "Redmond, WA", R.drawable.microsoft, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("PayPal", "San Jose, CA", R.drawable.paypal, new Intent(this, AmericanExpressActivity.class)));
-        companies.add(new Company("Walmart eCommerce", "Bentonville, AR; Sunnyvale, CA", R.drawable.walmart, new Intent(this, AmericanExpressActivity.class)));
+        companies.add(new Company("ADP", "Roseland, NJ", R.drawable.adp, new Intent(this, ADPActivity.class)));
+        companies.add(new Company("Amazon", "Seattle, WA", R.drawable.amazon, new Intent(this, AmazonActivity.class)));
+        companies.add(new Company("Apple", "Cupertino, CA", R.drawable.apple, new Intent(this, AppleActivity.class)));
+        companies.add(new Company("Chewy.com", "Dania Beach, FL", R.drawable.chewy, new Intent(this, ChewyActivity.class)));
+        companies.add(new Company("Google", "Mountain View, CA", R.drawable.google, new Intent(this, GoogleActivity.class)));
+        companies.add(new Company("Hewlett-Packard", "Palo Alto, CA", R.drawable.hp, new Intent(this, HPActivity.class)));
+        companies.add(new Company("IBM", "Armonk, NY", R.drawable.ibm, new Intent(this, IBMActivity.class)));
+        companies.add(new Company("Microsoft", "Redmond, WA", R.drawable.microsoft, new Intent(this, MicrosoftActivity.class)));
+        companies.add(new Company("PayPal", "San Jose, CA", R.drawable.paypal, new Intent(this, PayPalActivity.class)));
+        companies.add(new Company("Walmart eCommerce", "Bentonville, AR; Sunnyvale, CA", R.drawable.walmart, new Intent(this, WalmartActivity.class)));
 
         //initialize a CompanyAdapter
         final CompanyAdapter adapter = new CompanyAdapter(this, R.color.tech, companies);
